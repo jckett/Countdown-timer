@@ -3,7 +3,7 @@ body{
 }
   
 #timer {
-  color: #ffffff;
+  color: #141414;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -19,35 +19,35 @@ body{
 }
 
 .days {
-  background: #303437;
-    color: #ffffff;
+  background: #f5f6f8;
+    color: #141414;
 }
 
 .hours {
-  background: #303437;
-  color: #ffffff;
+  background: #f5f6f8;
+  color: #141414;
 }
 
 .minutes {
-  background: #303437;
-    color: #ffffff;
+  background: #f5f6f8;
+    color: #141414;
 }
 
 .seconds {
-  background: #303437;
-    color: #ffffff;
+  background: #f5f6f8;
+    color: #141414;
 }
 
 .numbers {
   font-family: 'Montserrat', sans-serif;
-  color:  #ffffff;
+  color:  #141414;
   font-size: 4em;
   text-align: center;
 }
 
 .white {
   position: absolute;
-  background:  #303437;
+  background:  #f5f6f8;
   height: 85px;
   width: 75px;
   left: 30%;
@@ -56,7 +56,7 @@ body{
 
 .red {
   position: absolute;
-  background:  #303437;
+  background:  #f5f6f8;
   left: 18%;
   top: 9%;
   height: 65px;
@@ -66,7 +66,7 @@ body{
 
 .blue {
   position: absolute;
-  background:  #303437;
+  background:  #f5f6f8;
   height: 80px;
   width: 80px;
   left: 60%;
