@@ -1,45 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
-
-* {
-    box-sizing: border-box;
+body{
+    background-color: #303437;
+}
+  
+#timer {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: .7em;
+  letter-spacing: 5px;
 }
 
-body {
-    background-image: url('./beige_background.jpg');
-    background-size: cover;
-    background-position:center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'fantasy', fantasy;
-    margin: 0;
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  padding: 20px;
+  width: 100px;
+  border-radius: 5px;
 }
 
-h1 {
-    font-weight: normal;
-    font-size: 4rem;
-    margin-top: 5rem;
+.days {
+  background: #303437;
+    color: #ffffff;
 }
 
-.countdown-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.hours {
+  background: #303437;
+  color: #ffffff;
 }
 
-.big-text {
-    font-weight: bold;
-    font-size: 6rem;
-    line-height: 1;
-    margin: 1rem 2rem;
+.minutes {
+  background: #303437;
+    color: #ffffff;
 }
 
-.countdown-el {
-    text-align: center;
+.seconds {
+  background: #303437;
+    color: #ffffff;
 }
 
-.countdown-el span {
-    font-size: 1.3rem;
+.numbers {
+  font-family: 'Montserrat', sans-serif;
+  color:  #ffffff;
+  font-size: 4em;
+  text-align: center;
+}
+
+.white {
+  position: absolute;
+  background:  #303437;
+  height: 85px;
+  width: 75px;
+  left: 30%;
+  top: 2%;
+}
+
+.red {
+  position: absolute;
+  background:  #303437;
+  left: 18%;
+  top: 9%;
+  height: 65px;
+  width: 70px;
+ 
+}
+
+.blue {
+  position: absolute;
+  background:  #303437;
+  height: 80px;
+  width: 80px;
+  left: 60%;
+  top: 5%;
+
+
 }
