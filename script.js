@@ -1,5 +1,5 @@
 const year = new Date().getFullYear();
-const myDate = new Date('Dec 25, 2021 00:00:00');
+const myDate = new Date('Dec 25, 2022 00:00:00');
 console.log(myDate);
 
 // countdown
